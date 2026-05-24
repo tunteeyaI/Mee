@@ -15,4 +15,4 @@ def generate_response(prompt:str,temperature:float=0.3,max_tokens: int=530)->str
         temperature=temperature,
         max_tokens=max_tokens,
     )
-    return response.choices[0].message.contentv
+    return response.choices[0].message.content
